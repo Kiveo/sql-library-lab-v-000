@@ -10,3 +10,6 @@
 -- Feel free to make these up if you don't know any Fantasy series :)
 
 INSERT INTO series (title) VALUES ("Harry Potter"), ("Seven Swords");
+
+INSERT INTO books (title) VALUES ("Harry 1"), ("Harry 2"), ("Harry 3"), ("Sword 1"), ("Sword 2"), ("Sword 3");
+

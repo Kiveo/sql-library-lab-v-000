@@ -11,15 +11,15 @@
 
 INSERT INTO series (title) VALUES ("Harry Potter"), ("Book of Swords");
 
-INSERT INTO books (title) VALUES ("HP 1"), ("HP 2"), ("HP 3"), ("Sword 1"), ("Sword 2"), ("Sword 3");
+INSERT INTO books (title, series_id) VALUES ("HP 1", 1), ("HP 2", 1), ("HP 3", 1), ("Sword 1", 2), ("Sword 2", 2), ("Sword 3", 2);
 
-INSERT INTO characters (name) VALUES ("Harry"), ("Ron"), ("Hagrid"), ("Hermoine"), ("Fencer"), ("Knight"), ("Ninja"), ("Samurai"); 
+INSERT INTO characters (name, series_id) VALUES ("Harry", 1), ("Ron", 1), ("Hagrid", 1), ("Hermoine", 1), ("Fencer", 2), ("Knight", 2), ("Ninja", 2), ("Samurai", 2);
 
 INSERT INTO subgenres (name) VALUES ("science fiction"), ("fantasy");
 
 INSERT INTO authors (name) VALUES ("J. K. Rowling"), ("Fred Saberhagen");
 
-INSERT INTO character_books (character_id, book_id) VALUES 
+INSERT INTO character_books (character_id, book_id) VALUES
 (1,), (), (), (),
 (), (), (), ()
 ;

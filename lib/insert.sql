@@ -19,7 +19,7 @@ INSERT INTO subgenres (name) VALUES ("science fiction"), ("fantasy");
 
 INSERT INTO authors (name) VALUES ("J. K. Rowling"), ("Fred Saberhagen");
 
-INSERT INTO character_books (character_id, book_id) VALUES
-(1,), (), (), (),
-(), (), (), ()
-;
+-- INSERT INTO character_books (character_id, book_id) VALUES
+-- (1,), (), (), (),
+-- (), (), (), ()
+-- ;

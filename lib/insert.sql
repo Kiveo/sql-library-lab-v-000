@@ -13,3 +13,4 @@ INSERT INTO series (title) VALUES ("Harry Potter"), ("Seven Swords");
 
 INSERT INTO books (title) VALUES ("Harry 1"), ("Harry 2"), ("Harry 3"), ("Sword 1"), ("Sword 2"), ("Sword 3");
 
+INSERT INTO characters (name) VALUES ("Harry"), ("Ron"), ("Hagrid"), ("Hermoine"), ("Fencer"), ("Knight"), ("Ninja"), ("Samurai"); 
